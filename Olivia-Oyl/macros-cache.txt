@@ -1,0 +1,100 @@
+VER 3 0100000000000006 " " "134400"
+#showtooltip entangling roots
+/cast [noform] entangling roots
+/cancelform
+END
+VER 3 0100000000000007 " " "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead][] Moonfire(Rank 1)
+END
+VER 3 0100000000000008 " " "134400"
+#showtooltip
+/cast Maul
+/startattacking
+END
+VER 3 0100000000000001 "3" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead] Healing Touch; [harm,nodead] wrath; healing touch
+END
+VER 3 0100000000000002 "4" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead][harm,nodead][] Moonfire
+END
+VER 3 0100000000000003 "5" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][] Rejuvenation
+END
+VER 3 010000000000000B "b-q" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead][] feral charge
+END
+VER 3 010000000000000C "c" "134400"
+#showtooltip
+/cast [noform:3] cat form
+/cast prowl
+END
+VER 3 0100000000000017 "c-4" "134400"
+#showtooltip
+/cast [stealth,known: ravage] ravage; shred
+END
+VER 3 0100000000000016 "c-5" "134400"
+#showtooltip
+/cast [stealth, known:pounce] pounce; [@mouseover,harm,nodead][] rake
+END
+VER 3 0100000000000005 "e" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead] regrowth; [harm,nodead] moonfire; regrowth
+END
+VER 3 010000000000000A "f" "134400"
+#showtooltip
+/cast [form:1/3,@mouseover,harm,nodead][form:1/3] faerie fire; [noform:1/3] cat form
+END
+VER 3 0100000000000015 "f4" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][] thorns
+END
+VER 3 0100000000000014 "f5" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][] mark of the wild
+END
+VER 3 010000000000000F "q" "134400"
+#showtooltip
+/cast [noform:1] bear form
+/cast feral charge
+END
+VER 3 0100000000000013 "s4" "134400"
+#showtooltip
+/cast [@mouseover,nodead,help][] abolish poison
+END
+VER 3 0100000000000012 "s4" "134400"
+#showtooltip
+/cast [@mouseover,help,nodead][] remove curse
+END
+VER 3 010000000000000E "scrolld" "134400"
+#showtooltip
+/targetenemy
+/cast [@mouseover,harm,nodead,noform][noform] Moonfire(Rank 1)
+END
+VER 3 0100000000000011 "sf" "134400"
+#showtooltip dash
+/cast [noform: 3] cat form
+/cast dash
+END
+VER 3 0100000000000010 "sspace" "134400"
+#showtooltip
+/cast [swimming] aquatic form; [outdoors] travel form
+END
+VER 3 0100000000000009 "sv" "134400"
+#showtooltip
+/cast [@mouseover,harm,nodead][] hibernate
+/focus [@mouseover,harm,nodead][]
+END
+VER 3 0100000000000004 "t" "134400"
+#showtooltip Bash
+/cast [noform:1] bear form
+/cast [form:1, @mouseover,harm,nodead][form:1] bash
+END
+VER 3 010000000000000D "x" "134400"
+#showtooltip
+/cast [mod:ctrl] revive; rebirth
+END
